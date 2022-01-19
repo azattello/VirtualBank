@@ -332,9 +332,9 @@ h6 {
 .card{
   position:absolute;
   top: 270px;
-  margin: 0 0 0 100px;
-  width: 300px;
-  height: 180px;
+  margin: 0 0 0 90px;
+  width: 330px;
+  height: 200px;
   border-radius:8px;
 
   border-top: 0.2px solid rgba(255, 255, 255, 0.4);
@@ -363,7 +363,7 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-size: 16px;
+  font-size: 18px;
 
 }
 .card__name{
@@ -393,8 +393,8 @@ align-items: center;
 }
 
 .card__title{
-  margin: 20px 0 0 0;
-  font-size: 22px;
+  margin: 23px 0 0 0;
+  font-size: 24px;
   text-transform: uppercase;
   color: rgba(255, 255, 255);
   text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
@@ -464,10 +464,10 @@ align-items: center;
 
 @keyframes card {
   0% {
-    backdrop-filter: blur(30px);
+    backdrop-filter: blur(10px);
   }
   50%{
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(4px);
   }
   100% {
     backdrop-filter: blur(7px);
